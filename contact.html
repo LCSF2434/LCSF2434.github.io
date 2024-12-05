@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!--
+    Student Name: Sean Clarke
+	Assignment: Term Cumulative Project - Product #34
+    File Name: contact.html
+    Date: TBD
+-->
+<html lang="en">
+
+	<head>
+		<title>ElectroFyre: Contact Us</title>
+		<link rel="icon" type="image/x-icon" href="images/ElectroFyreSmallLogo.png">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/contact.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">	</head>
+
+	<body>
+		
+		<a href="index.html"><img src="images/ElectroFyreLogo.png" alt="ElectroFyre Logo"></a>
+
+		<header>
+			<h1>&#128293;Our fires are not &#34;LIT&#34;&#128293;</h1>
+		</header>
+
+		<nav class="mobile_tablet_Nav">
+			<ul>
+				<a href ="index.html">Home</a>
+				<a href ="about.html">About</a>
+				<a href ="our-team.html">Our Team</a>
+				<a href ="specials.html">Specials</a>
+				<a href ="training.html">Training</a>
+				<a href ="media.html">Media</a>
+				<a href ="faqs.html">FAQs</a>
+				<a href ="contact.html">Contact Us</a>
+			</ul>
+		</nav>
+	
+		<nav class="desktop_Nav">
+			<ul>
+				<li><a href ="index.html">Home</a></li>
+				<li><a href ="about.html">About</a> </li>
+				<li><a href ="our-team.html">Our Team</a></li>
+				<li><a href ="specials.html">Specials</a></li>
+				<li><a href ="training.html">Training</a></li>
+				<li><a href ="media.html">Media</a></li>
+				<li><a href ="faqs.html">FAQs</a></li>
+				<li><a href ="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<div class="mobile_tablet_Main">
+				<div id="form">
+					<h2>Contact Us Today for a Quote!</h2>
+					<form class="form-grid"> <!-- Start Form -->
+						<fieldset>
+							<legend>Customer Information</legend>
+							<div>
+								<label for="first_Name">First Name:</label>
+								<input type="text" name="first_Name" id="first_Name" required autofocus>
+							</div>
+							<div>
+								<label for="last_Name">Last Name:</label>
+								<input type="text" name="last_Name" id="last_Name" required>
+							</div>
+							<div>
+								<label for="email">Email:</label>
+								<input type="email" name="email" id="email" required placeholder="customer@gmail.com">
+							</div>
+							<div>
+								<label for="phone">Phone:</label>
+								<input type="tel" name="phone" id="phone" required placeholder="###-###-####" size="12">
+							</div>
+							<div>
+								<label for="contact_Date">Preferred Contact Date</label>
+								<input type="date" name="contact_Date" id="contact_Date" required>
+							</div>
+							<div>
+								<label for="contact_Pref_Type">Preferred Contact Type</label>
+								<input type="radio" name="contact" id="phone" 
+									value="Phone">Phone</label>
+								<input type="radio" name="contact" id="email" 
+									value="Email">Email</label>
+									<input type="radio" name="contact" id="text" 
+									value="Text">Text</label>
+							</div>
+						</fieldset>
+
+						<fieldset>
+							<legend>Requested Information</legend>
+							<p>I would like more information about:</p>
+							<label for="fireplace"><input type="checkbox" name="information" id="fireplace" 
+								value="Electric Fireplaces">Electric Fireplaces</label>
+
+							<label for="fireplace_Training"><input type="checkbox" name="information" id="fireplace_Training" 
+								value="Fireplace Training">Fireplace Training</label>
+
+							<label for="comp_Info"><input type="checkbox" name="information" id="comp_Info" 
+								value="Company Information">Company Information</label>
+						</fieldset>
+
+						<fieldset>
+							<legend>Referral Source</legend>
+							<label for="reference">How did you hear about us?</label>
+								<select name="reference" id="reference">
+									<option value="ad">Advertisement</option>
+									<option value="friend">Friend</option>
+									<option value="google">Google</option>
+									<option value="social">Social Media</option>
+									<option value="other">Other</option>
+								</select>
+							<label for="questions">Questions?</label>
+							<textarea id="questions" name="questions" rows="5" cols="35" placeholder="I wanted to ask..."></textarea>
+						</fieldset>
+						<input type="submit" id="submit" value="Submit" class="btn">
+						<input type="reset" id="submit" value="Reset Form" class="btn">
+					</form>
+				</div>
+			</div>
+
+			<div class="desktop_Main">
+				<div id="form">
+					<h2>Contact Us Today for a Quote!</h2>
+					<form class="form-grid"> <!-- Start Form -->
+						<fieldset>
+							<legend>Customer Information</legend>
+							<div>
+								<label for="first_Name">First Name:</label>
+								<input type="text" name="first_Name" id="first_Name" required autofocus>
+							</div>
+							<div>
+								<label for="last_Name">Last Name:</label>
+								<input type="text" name="last_Name" id="last_Name" required>
+							</div>
+							<div>
+								<label for="email">Email:</label>
+								<input type="email" name="email" id="email" required placeholder="customer@gmail.com">
+							</div>
+							<div>
+								<label for="phone">Phone:</label>
+								<input type="tel" name="phone" id="phone" required placeholder="###-###-####" size="12">
+							</div>
+							<div>
+								<label for="contact_Date">Preferred Contact Date</label>
+								<input type="date" name="contact_Date" id="contact_Date" required>
+							</div>
+							<div>
+								<label for="contact_Pref_Type">Preferred Contact Type</label>
+								<input type="radio" name="contact" id="phone" 
+									value="Phone">Phone</label>
+								<input type="radio" name="contact" id="email" 
+									value="Email">Email</label>
+									<input type="radio" name="contact" id="text" 
+									value="Text">Text</label>
+							</div>
+						</fieldset>
+
+						<fieldset>
+							<legend>Requested Information</legend>
+							<p>I would like more information about:</p>
+							<label for="fireplace"><input type="checkbox" name="information" id="fireplace" 
+								value="Electric Fireplaces">Electric Fireplaces</label>
+
+							<label for="fireplace_Training"><input type="checkbox" name="information" id="fireplace_Training" 
+								value="Fireplace Training">Fireplace Training</label>
+
+							<label for="comp_Info"><input type="checkbox" name="information" id="comp_Info" 
+								value="Company Information">Company Information</label>
+						</fieldset>
+
+						<fieldset>
+							<legend>Referral Source</legend>
+							<label for="reference">How did you hear about us?</label>
+								<select name="reference" id="reference">
+									<option value="ad">Advertisement</option>
+									<option value="friend">Friend</option>
+									<option value="google">Google</option>
+									<option value="social">Social Media</option>
+									<option value="other">Other</option>
+								</select>
+							<label for="questions">Questions?</label>
+							<textarea id="questions" name="questions" rows="5" cols="35" placeholder="I wanted to ask..."></textarea>
+						</fieldset>
+						<input type="submit" id="submit" value="Submit" class="btn">
+						<input type="reset" id="submit" value="Reset Form" class="btn">
+					</form>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<p>&copy; Copyright 2099 ElectroFyre. All Rights Reserved.</p>
+			<a href="mailto:contact@electrofyre.ca">Request Information</a>
+			<p>Sean Clarke &nbsp; - &nbsp; c0561639</p>
+		</footer>
+
+	</body>
+</html>

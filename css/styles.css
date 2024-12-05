@@ -1,0 +1,447 @@
+/*
+    Student Name: Sean Clarke
+	Student ID: c0561639
+	Assignment: Term Cumulative Project - Product #34
+    File Name: styles.css
+    Date: TBD
+*/
+
+/*CSS RESET*/
+body, header, nav, main, footer, img, h1, h2, h3, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Style rules for body and images */
+body {
+    background-color: #393939
+}
+
+img {
+    display:block;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+header {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    margin: auto;
+    color: #e9e9e9;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 0.75em;
+}
+
+/*Style rules for nav bar*/
+.mobile_tablet_Nav {
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 0;
+    width: 95%;
+}
+
+.desktop_Nav {
+    display: none;
+}
+
+.mobile_tablet_Nav a {
+    background: #55aeac;
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #e9e9e9;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+	transition: .3s ease-in-out;
+    opacity: 1;
+    text-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 8px #000;
+}
+
+.mobile_tablet_Nav a:hover {
+    background-color: #122525;
+}
+
+/* Style rules for main content */
+.mobile_tablet_Main {
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #000;
+    box-shadow: 2px 2px 8px #000;
+    max-width: 90%;
+    background-color: #494949;
+    text-shadow: 2px 2px 2px #000;
+    color: #e9e9e9;
+    z-index: -1;
+}
+
+.desktop_Main {
+    display: none;
+}
+
+main hr {
+    width: 80%;
+    box-shadow: 1px 1px 5px #000;
+}
+
+main h1 {
+    margin-top: 2%;
+    font-size: 1.75em;
+}
+
+main h2 {
+    color: #55aeac;
+}
+
+main h1 span {
+    color: #55aeac;
+    font-size: 1.75em;
+    text-decoration: underline;
+}
+
+main p {
+    margin-top: 2%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p span {
+    color: #55aeac;
+}
+
+main h3 span {
+    color: #55aeac;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+
+
+.aboutList {
+    margin-bottom: 2%;
+    margin: auto;
+    text-align: left;
+    margin-top: 2%;
+    width: 40%;
+}
+
+.aboutList li {
+    list-style: decimal;
+    padding-bottom: 2%;
+}
+
+li span {
+    color: #55aeac;
+}
+
+.fp_Image {
+    max-width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 2px 2px 8px #000;
+    -webkit-filter:hue-rotate(150deg);
+}
+
+.mobile_tablet_Main iframe {
+    border: 3px solid #000;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 2%;
+}
+
+/*Style rules for footer*/
+footer {
+    font-family: "Open Sans", sans-serif;
+    color: #e9e9e9;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    text-shadow: 2px 2px 4px #000;
+}
+
+footer a {
+    background: #55aeac;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #e9e9e9;
+    width: 180px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 3px solid #000;
+    opacity: 1;
+	transition: .3s ease-in-out;
+    box-shadow: 2px 2px 8px #000;
+    font-weight: b;
+}
+
+footer a:hover {
+    background-color: #122525;
+}
+
+/*Style rules for "fireplaces" classes in special.html*/
+.fireplaces-container {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.fireplaces:active .fireplaces-image img {
+    filter:saturate(0) blur(2px);
+    transform: scale(1.1);
+}
+
+.fireplaces {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: clip;
+    border: 2px solid #000000;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.fireplaces-image {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+
+.fireplaces-image img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 80%;
+    transition:all 0.9s ease-in-out;
+}
+
+.fireplaces-image .fireplaces-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    text-align: left;
+}
+
+.fireplaces:active .fireplaces-info {
+    opacity: 1;
+}
+
+.fireplaces-info h2 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #55aeac;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.fireplaces-info h3 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #78f3f1;
+    text-shadow: 1px 1px 0px #000000;
+    margin-bottom: 0px;
+}
+
+.fireplaces-info li {
+    font-size: 10px;
+    text-align:left;
+    text-shadow: 1px 1px 0px #000000;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.fireplaces-info p {
+    font-size: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 0px #000000;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* Style rules for Desktop Navport*/
+@media screen and (min-width: 1200px), print {
+
+    header {
+        font-family: "Open Sans", sans-serif;
+        max-width: 60%;
+        margin: auto;
+        background-color:#494949;
+        color: #e9e9e9;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        border: 3px solid #000;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #000;
+        text-align: center;
+        text-shadow: 2px 2px 2px #000;
+        font-size: 1em;
+    }
+
+    .mobile_tablet_Nav {
+        display: none;
+    }
+
+    .desktop_Nav {
+        display: block;
+        font-family: "Open Sans", sans-serif;
+        list-style: none;
+        background: #55aeac;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #000;
+        border-radius: 8px;
+        font-size: 0;
+        width: 95%;
+        box-shadow: 2px 2px 8px;
+    }
+    
+    .desktop_Nav li {
+        display: inline-block;
+    }
+    
+    .desktop_Nav a {
+        text-decoration: none;
+        color: #e9e9e9;
+        width: 120px;
+        display: inline-block;
+        padding: 10px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        transition: .3s ease-in-out;
+        opacity: 1;
+        text-shadow: 2px 2px 2px #000;
+    }
+    
+    .desktop_Nav a:hover {
+        background-color: #122525;
+    }
+
+    .mobile_tablet_Main {
+        display: none;
+    }
+
+    .desktop_Main {
+        font-family: "Open Sans", sans-serif;
+        display: block;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-align: center;
+        font-weight: bold;
+        border: 3px solid #000;
+        box-shadow: 2px 2px 8px #000;
+        max-width: 90%;
+        background-color: #494949;
+        text-shadow: 2px 2px 2px #000;
+        color: #e9e9e9;
+        z-index: -1;
+    }
+
+    .desktop_Main iframe {
+        border: 3px solid #000;
+        border-radius: 25px;
+        width: 500px;
+        height: 300px;
+        margin-bottom: 2%;
+    }
+
+    .desktop_Main p {
+        margin-top: 2%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .desktop_Main .aboutList {
+        margin-bottom: 2%;
+        margin: auto;
+        text-align: left;
+        margin-top: 2%;
+        width: 50%;
+    }
+
+    .fireplaces-info h2 {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        color: #55aeac;
+        text-shadow: 1px 1px 0px #000000;
+    
+    }
+    
+    .fireplaces-info h3 {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        color: #78f3f1;
+        text-shadow: 1px 1px 0px #000000;
+        margin-bottom: 0px;
+    }
+    
+    .fireplaces-info li {
+        font-size: 14px;
+        text-align:left;
+        text-shadow: 1px 1px 0px #000000;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    .fireplaces-info p {
+        font-size: 14px;
+        text-align: left;
+        text-shadow: 1px 1px 0px #000000;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .fireplaces:hover .fireplaces-image img {
+        filter:saturate(0) blur(2px);
+        transform: scale(1.1);
+    }
+
+    .fireplaces:hover .fireplaces-info {
+        opacity: 1;
+    }
+
+}

@@ -1,0 +1,73 @@
+/*
+    Student Name: Sean Clarke
+	Student ID: c0561639
+	Assignment: Term Cumulative Project - Product #34
+    File Name: about.css
+    Date: TBD
+*/
+
+article {   
+    display: flex;
+    text-align: center;
+    width: 60%;
+    font-size: 1em;
+    margin: 0 auto;
+    justify-content: center;
+    font-weight: normal;
+}
+
+article img {
+    margin-top: 5%;
+    border: 3px solid #000;
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    -webkit-filter: grayscale();
+}
+
+figure {
+    font-size: 1.25em;
+}
+
+figure img {
+    width: 50%;
+    border: 5px solid #000;
+    border-radius: 25%;
+    -webkit-filter: grayscale();
+}
+
+figcaption {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    margin-top: 2%;
+}
+
+aside {
+    margin-top: 2%;
+    font-weight: normal;
+}
+
+aside li {
+    margin-bottom: 2%;
+    margin: auto;
+    text-align: left;
+    margin-top: 1%;
+    width: 50%;
+}
+
+section {
+    font-weight: normal;
+    margin-bottom: 2%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    width: 90%;
+}
+
+section p {
+    margin-bottom: 2%;
+}
