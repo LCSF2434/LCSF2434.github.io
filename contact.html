@@ -13,10 +13,11 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/contact.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">	</head>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">	
+	</head>
 
 	<body>
 		
@@ -27,7 +28,6 @@
 		</header>
 
 		<nav class="mobile_tablet_Nav">
-			<ul>
 				<a href ="index.html">Home</a>
 				<a href ="about.html">About</a>
 				<a href ="our-team.html">Our Team</a>
@@ -36,7 +36,6 @@
 				<a href ="media.html">Media</a>
 				<a href ="faqs.html">FAQs</a>
 				<a href ="contact.html">Contact Us</a>
-			</ul>
 		</nav>
 	
 		<nav class="desktop_Nav">
@@ -60,136 +59,130 @@
 						<fieldset>
 							<legend>Customer Information</legend>
 							<div>
-								<label for="first_Name">First Name:</label>
-								<input type="text" name="first_Name" id="first_Name" required autofocus>
+								<label for="mobile_first_Name">First Name:</label>
+								<input type="text" name="first_Name" id="mobile_first_Name" required>
 							</div>
 							<div>
-								<label for="last_Name">Last Name:</label>
-								<input type="text" name="last_Name" id="last_Name" required>
+								<label for="mobile_last_Name">Last Name:</label>
+								<input type="text" name="last_Name" id="mobile_last_Name" required>
 							</div>
 							<div>
-								<label for="email">Email:</label>
-								<input type="email" name="email" id="email" required placeholder="customer@gmail.com">
+								<label for="mobile_email">Email:</label>
+								<input type="email" name="email" id="mobile_email" required placeholder="customer@gmail.com">
 							</div>
 							<div>
-								<label for="phone">Phone:</label>
-								<input type="tel" name="phone" id="phone" required placeholder="###-###-####" size="12">
+								<label for="mobile_phone">Phone:</label>
+								<input type="tel" name="phone" id="mobile_phone" required placeholder="###-###-####" size="12">
 							</div>
 							<div>
-								<label for="contact_Date">Preferred Contact Date</label>
-								<input type="date" name="contact_Date" id="contact_Date" required>
+								<label for="mobile_contact_Date">Preferred Contact Date</label>
+								<input type="date" name="contact_Date" id="mobile_contact_Date" required>
 							</div>
 							<div>
-								<label for="contact_Pref_Type">Preferred Contact Type</label>
-								<input type="radio" name="contact" id="phone" 
-									value="Phone">Phone</label>
-								<input type="radio" name="contact" id="email" 
-									value="Email">Email</label>
-									<input type="radio" name="contact" id="text" 
-									value="Text">Text</label>
+								<label>Preferred Contact Type</label>
+								<input type="radio" name="contact" id="mobile_contact_phone" value="Phone">Phone
+								<input type="radio" name="contact" id="mobile_contact_email" value="Email">Email
+								<input type="radio" name="contact" id="mobile_contact_text" value="Text">Text
 							</div>
 						</fieldset>
-
+			
 						<fieldset>
 							<legend>Requested Information</legend>
 							<p>I would like more information about:</p>
-							<label for="fireplace"><input type="checkbox" name="information" id="fireplace" 
+							<label for="mobile_fireplace"><input type="checkbox" name="information" id="mobile_fireplace" 
 								value="Electric Fireplaces">Electric Fireplaces</label>
-
-							<label for="fireplace_Training"><input type="checkbox" name="information" id="fireplace_Training" 
+			
+							<label for="mobile_fireplace_Training"><input type="checkbox" name="information" id="mobile_fireplace_Training" 
 								value="Fireplace Training">Fireplace Training</label>
-
-							<label for="comp_Info"><input type="checkbox" name="information" id="comp_Info" 
+			
+							<label for="mobile_comp_Info"><input type="checkbox" name="information" id="mobile_comp_Info" 
 								value="Company Information">Company Information</label>
 						</fieldset>
-
+			
 						<fieldset>
 							<legend>Referral Source</legend>
-							<label for="reference">How did you hear about us?</label>
-								<select name="reference" id="reference">
-									<option value="ad">Advertisement</option>
-									<option value="friend">Friend</option>
-									<option value="google">Google</option>
-									<option value="social">Social Media</option>
-									<option value="other">Other</option>
-								</select>
-							<label for="questions">Questions?</label>
-							<textarea id="questions" name="questions" rows="5" cols="35" placeholder="I wanted to ask..."></textarea>
+							<label for="mobile_reference">How did you hear about us?</label>
+							<select name="reference" id="mobile_reference">
+								<option value="ad">Advertisement</option>
+								<option value="friend">Friend</option>
+								<option value="google">Google</option>
+								<option value="social">Social Media</option>
+								<option value="other">Other</option>
+							</select>
+							<label for="mobile_questions">Questions?</label>
+							<textarea id="mobile_questions" name="questions" rows="5" cols="35" placeholder="I wanted to ask..."></textarea>
 						</fieldset>
-						<input type="submit" id="submit" value="Submit" class="btn">
-						<input type="reset" id="submit" value="Reset Form" class="btn">
+						<input type="submit" id="mobile_submit" value="Submit" class="btn">
+						<input type="reset" id="mobile_reset" value="Reset Form" class="btn">
 					</form>
 				</div>
 			</div>
-
+			
 			<div class="desktop_Main">
-				<div id="form">
+				<div id="form2">
 					<h2>Contact Us Today for a Quote!</h2>
 					<form class="form-grid"> <!-- Start Form -->
 						<fieldset>
 							<legend>Customer Information</legend>
 							<div>
-								<label for="first_Name">First Name:</label>
-								<input type="text" name="first_Name" id="first_Name" required autofocus>
+								<label for="desktop_first_Name">First Name:</label>
+								<input type="text" name="first_Name" id="desktop_first_Name" required autofocus>
 							</div>
 							<div>
-								<label for="last_Name">Last Name:</label>
-								<input type="text" name="last_Name" id="last_Name" required>
+								<label for="desktop_last_Name">Last Name:</label>
+								<input type="text" name="last_Name" id="desktop_last_Name" required>
 							</div>
 							<div>
-								<label for="email">Email:</label>
-								<input type="email" name="email" id="email" required placeholder="customer@gmail.com">
+								<label for="desktop_email">Email:</label>
+								<input type="email" name="email" id="desktop_email" required placeholder="customer@gmail.com">
 							</div>
 							<div>
-								<label for="phone">Phone:</label>
-								<input type="tel" name="phone" id="phone" required placeholder="###-###-####" size="12">
+								<label for="desktop_phone">Phone:</label>
+								<input type="tel" name="phone" id="desktop_phone" required placeholder="###-###-####" size="12">
 							</div>
 							<div>
-								<label for="contact_Date">Preferred Contact Date</label>
-								<input type="date" name="contact_Date" id="contact_Date" required>
+								<label for="desktop_contact_Date">Preferred Contact Date</label>
+								<input type="date" name="contact_Date" id="desktop_contact_Date" required>
 							</div>
 							<div>
-								<label for="contact_Pref_Type">Preferred Contact Type</label>
-								<input type="radio" name="contact" id="phone" 
-									value="Phone">Phone</label>
-								<input type="radio" name="contact" id="email" 
-									value="Email">Email</label>
-									<input type="radio" name="contact" id="text" 
-									value="Text">Text</label>
+								<label>Preferred Contact Type</label>
+								<input type="radio" name="contact" id="desktop_contact_phone" value="Phone">Phone
+								<input type="radio" name="contact" id="desktop_contact_email" value="Email">Email
+								<input type="radio" name="contact" id="desktop_contact_text" value="Text">Text
 							</div>
 						</fieldset>
-
+			
 						<fieldset>
 							<legend>Requested Information</legend>
 							<p>I would like more information about:</p>
-							<label for="fireplace"><input type="checkbox" name="information" id="fireplace" 
+							<label for="desktop_fireplace"><input type="checkbox" name="information" id="desktop_fireplace" 
 								value="Electric Fireplaces">Electric Fireplaces</label>
-
-							<label for="fireplace_Training"><input type="checkbox" name="information" id="fireplace_Training" 
+			
+							<label for="desktop_fireplace_Training"><input type="checkbox" name="information" id="desktop_fireplace_Training" 
 								value="Fireplace Training">Fireplace Training</label>
-
-							<label for="comp_Info"><input type="checkbox" name="information" id="comp_Info" 
+			
+							<label for="desktop_comp_Info"><input type="checkbox" name="information" id="desktop_comp_Info" 
 								value="Company Information">Company Information</label>
 						</fieldset>
-
+			
 						<fieldset>
 							<legend>Referral Source</legend>
-							<label for="reference">How did you hear about us?</label>
-								<select name="reference" id="reference">
-									<option value="ad">Advertisement</option>
-									<option value="friend">Friend</option>
-									<option value="google">Google</option>
-									<option value="social">Social Media</option>
-									<option value="other">Other</option>
-								</select>
-							<label for="questions">Questions?</label>
-							<textarea id="questions" name="questions" rows="5" cols="35" placeholder="I wanted to ask..."></textarea>
+							<label for="desktop_reference">How did you hear about us?</label>
+							<select name="reference" id="desktop_reference">
+								<option value="ad">Advertisement</option>
+								<option value="friend">Friend</option>
+								<option value="google">Google</option>
+								<option value="social">Social Media</option>
+								<option value="other">Other</option>
+							</select>
+							<label for="desktop_questions">Questions?</label>
+							<textarea id="desktop_questions" name="questions" rows="5" cols="35" placeholder="I wanted to ask..."></textarea>
 						</fieldset>
-						<input type="submit" id="submit" value="Submit" class="btn">
-						<input type="reset" id="submit" value="Reset Form" class="btn">
+						<input type="submit" id="desktop_submit" value="Submit" class="btn">
+						<input type="reset" id="desktop_reset" value="Reset Form" class="btn">
 					</form>
 				</div>
-			</div>
+			</div>			
 		</main>
 
 		<footer>

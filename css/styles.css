@@ -199,7 +199,7 @@ footer a {
     opacity: 1;
 	transition: .3s ease-in-out;
     box-shadow: 2px 2px 8px #000;
-    font-weight: b;
+    font-weight: bold;
 }
 
 footer a:hover {

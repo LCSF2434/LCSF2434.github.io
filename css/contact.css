@@ -8,11 +8,10 @@
 fieldset {
     margin: auto;
     margin-top: 2%;
-    text-align: lef;
+    text-align: center;
     width: 50%;
     box-shadow: 2px 2px 5px #000;
     border: 2px solid #000;
-    
 }
 
 input {
