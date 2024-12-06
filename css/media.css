@@ -15,7 +15,6 @@
     margin-top: 2%;
     width: 90%;
     height: 90%;
-    animation: glowing2 3s infinite;
 }
 
 h3 {
@@ -31,7 +30,6 @@ audio {
     width: 50%;
     border: 2px solid #000;
     border-radius: 30px;
-    animation: glowing 3s infinite;
 }
 
 .music_Sample h1 span {
@@ -45,27 +43,4 @@ audio {
     border: 2px solid #391942;
     border-radius: 8px;
     box-shadow: 0px 0px 20px #391942;
-}
-
-@keyframes glowing {
-    0% {
-        box-shadow: 0 0 10px 5px #391942;
-    }
-    50% {
-        box-shadow: 0 0 20px 10px #e7b5f5;
-    }
-    100% {
-        box-shadow: 0 0 10px 5px #391942;
-    }
-}
-@keyframes glowing2 {
-    0% {
-        box-shadow: 0 0 10px 5px red;
-    }
-    50% {
-        box-shadow: 0 0 20px 20px #ff7676;
-    }
-    100% {
-        box-shadow: 0 0 10px 5px red;
-    }
 }
