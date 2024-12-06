@@ -161,7 +161,7 @@ li span {
     border: 2px solid #000;
     border-radius: 25px;
     box-shadow: 2px 2px 8px #000;
-    -webkit-filter:hue-rotate(150deg);
+    filter:hue-rotate(150deg);
 }
 
 .mobile_tablet_Main iframe {
